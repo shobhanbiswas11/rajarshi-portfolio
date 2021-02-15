@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;700&family=Roboto:wght@300;400;700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -14,6 +16,8 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: #333;
 }
 
 button,

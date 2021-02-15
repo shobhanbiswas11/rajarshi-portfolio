@@ -1,7 +1,7 @@
 {
-  "name": "sb-gatsby-starter",
+  "name": "rajarshi-portfolio",
   "private": true,
-  "description": "A gatsby simple starter",
+  "description": "This is a Portfolio Website",
   "version": "0.1.0",
   "author": "Shobhan Biswas <shobhan.biswas11@gmail.com>",
   "dependencies": {
@@ -31,7 +31,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "gatsby develop -H 0.0.0.0",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

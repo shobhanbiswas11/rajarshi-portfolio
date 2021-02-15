@@ -17,11 +17,18 @@ const size = {
 }
 
 export const device = {
-  phone: `(max-width: ${size.phone}px)`,
-  tabPort: `(max-width: ${size.tabPort}px)`,
-  tabLand: `(max-width: ${size.tabLand}px)`,
-  laptop: `(max-width: ${size.laptop}px)`,
-  retina: `(min-width: ${size.retina}px)`,
+  phone: `@media screen and (max-width: ${size.phone}px)`,
+  tabPort: `@media screen and (max-width: ${size.tabPort}px)`,
+  tabLand: `@media screen and (max-width: ${size.tabLand}px)`,
+  laptop: `@media screen and (max-width: ${size.laptop}px)`,
+  retina: `@media screen and (min-width: ${size.retina}px)`,
+}
+
+export const color = {
+  bgColor: "#F5EDE2",
+  primary: {
+    400: "#c45f5b",
+  },
 }
 
 /*
